@@ -73,7 +73,11 @@ int main(int argc, const char * argv[])
                     [result appendString:category];
                     [result appendString:@"\n"];
                     
-                    for (NSString *string in stringsByCategory[category]) {
+                    NSArray *sortedStrings =
+                    [stringsByCategory[category] sortedArrayWithOptions:NSSortConcurrent
+                                                        usingComparator:comparator];
+                    
+                    for (NSString *string in sortedStrings) {
                         [result appendString:string];
                         [result appendString:@"\n"];
                     }
