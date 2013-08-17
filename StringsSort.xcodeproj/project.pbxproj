@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		1F7BBBA017BFEFAC00F46223 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F7BBB9F17BFEFAC00F46223 /* Foundation.framework */; };
 		1F7BBBA317BFEFAC00F46223 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7BBBA217BFEFAC00F46223 /* main.m */; };
-		1F7BBBA717BFEFAC00F46223 /* StringsSort.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F7BBBA617BFEFAC00F46223 /* StringsSort.1 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -19,7 +18,6 @@
 			dstPath = /usr/share/man/man1/;
 			dstSubfolderSpec = 0;
 			files = (
-				1F7BBBA717BFEFAC00F46223 /* StringsSort.1 in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
@@ -30,7 +28,6 @@
 		1F7BBB9F17BFEFAC00F46223 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1F7BBBA217BFEFAC00F46223 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1F7BBBA517BFEFAC00F46223 /* StringsSort-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StringsSort-Prefix.pch"; sourceTree = "<group>"; };
-		1F7BBBA617BFEFAC00F46223 /* StringsSort.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = StringsSort.1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +71,6 @@
 			isa = PBXGroup;
 			children = (
 				1F7BBBA217BFEFAC00F46223 /* main.m */,
-				1F7BBBA617BFEFAC00F46223 /* StringsSort.1 */,
 				1F7BBBA417BFEFAC00F46223 /* Supporting Files */,
 			);
 			path = StringsSort;
